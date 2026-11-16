@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { doc, onSnapshot, updateDoc, increment } from "firebase/firestore";
 import { db } from "../firebase";
 
-const LikeButton = () => {
+const LikeButton = (_props: Record<string, never>) => {
   const [likes, setLikes] = useState(0);
   const [isLiked, setIsLiked] = useState(false);
   const [isClient, setIsClient] = useState(false);

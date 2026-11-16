@@ -67,7 +67,7 @@ const CategoryIcons = {
   ),
 };
 
-const SkillsList = () => {
+const SkillsList = (_props: Record<string, never>) => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
